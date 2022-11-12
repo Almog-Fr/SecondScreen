@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EA0C0C"
+    android:orientation="vertical"
+    tools:context=".BlankFragmentOne">
+
+
+    <Button
+        android:id="@+id/buttonFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Move to next fragment" />
+
+    <TextView
+        android:id="@+id/textViewThree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:gravity="center"
+        android:text="This is the first text of the first fragment" />
+
+    <TextView
+        android:id="@+id/textViewFour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:gravity="center"
+        android:text="this is the second text of the fragment" />
+</LinearLayout>
